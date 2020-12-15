@@ -72,7 +72,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyApp' do
-    pod 'CountryPickerSwift'
+pod 'CountryPickerSwift', :git => 'https://github.com/Eratos1122/CountryCode.git'
 end
 ```
 
